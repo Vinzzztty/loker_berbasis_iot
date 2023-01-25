@@ -6,14 +6,14 @@
 
 #define BLYNK_PRINT Serial
 
-char Id[]="5Gj7Rt9VmZac10WsSD580ofVWEXjPast";
-char Wifi[]="Iki";
-char Pass[]="pecelenak";
+char Id[]="BLYNK_ID";
+char Wifi[]="SSID";
+char Pass[]="PASS_SSID";
 
 // Thingspeak
-char* apiTulis = "PEG4MYXQ7ATMSXTR";
-char* apiBaca = "8LUV1XASOY1CG7JS";
-const long channelID = 2006798;
+char* apiTulis = "WRITE_API_THINGSPEAK";
+char* apiBaca = "READ_API_THINGSPEAK";
+const long channelID = ID;
 
 int button1 = D2;
 int buttonOn = 0;
